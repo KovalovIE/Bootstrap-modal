@@ -1,0 +1,36 @@
+.Card {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+  border: 1px solid black;
+  box-sizing: border-box;
+}
+.Card-imageContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex: 1;
+}
+.Card-image {
+  width: 100%;
+}
+.image-size {
+  width: 75%;
+}
+.Card-body {
+  padding: 0 10px 10px 10px;
+  flex: 1;
+}
+
+.Card-text {
+  font-family: Calibri;
+  font-size: 13px;
+  margin-bottom: 0;
+}
+
+.Card-direction {
+  flex-direction: row;
+}
+.Card-direction-reverse {
+  flex-direction: row-reverse;
+}
