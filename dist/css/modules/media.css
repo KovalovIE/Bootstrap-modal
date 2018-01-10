@@ -1,0 +1,15 @@
+@media all and (min-width: 240px) and (max-width: 1024px) {
+  .header {
+    display: none;
+  }
+
+  .modal-fullscreen {
+    max-width: 99%;
+    height: 100%;
+    margin: 0;
+  }
+  
+  .modal-content {
+      min-height: 100%;
+  }
+}

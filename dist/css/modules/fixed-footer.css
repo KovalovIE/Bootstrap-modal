@@ -1,0 +1,15 @@
+.wrap-flex {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.main-flex {
+  flex: 1 auto;
+}
+
+.footer-flex {
+  height: 50px;
+  background: grey;
+  flex: 0 auto;
+}
